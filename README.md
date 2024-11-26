@@ -12,7 +12,7 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_unload      |      N/A      | Unload all plugins (same as 'sm plugins unload_all'). |
 | sm_round       |      N/A      | Executes 'mp_restartgame 1' to restart round. |
 | sm_cheats      |      N/A      | Toggles sv_cheats. |
-| sm_logit       |     <text>    | Logs specified text to 'sourcemod/logs/sm_logit.txt'. |
+| sm_logit       |     "< text >"    | Logs specified text to 'sourcemod/logs/sm_logit.txt'. |
 | sm_gametime    |      N/A      | Displays the GetGameTime() float. |
 | sm_uptime      |      N/A      | Displays how long the server has been up. Maybe inaccurate if server hibernation is active. |
 | sm_playtime    |      N/A      | Displays how long players have been playing on the server. |
