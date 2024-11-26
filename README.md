@@ -59,20 +59,20 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_findname    |  "targetname" | List entity indexes from a partial targetname. |
 | sm_count       |      N/A      | Displays a list of all spawned entity classnames and count. Optional sm_count <classname>. |
 | sm_modlist     |      N/A      | Saves a list of all the models used on the current map to 'sourcemod/logs/models_<MAPNAME>.txt'. |
-| sm_collision   | are neat      |    $1 |
-| sm_movetype    | are neat      |    $1 |
-| sm_anim        | are neat      |    $1 |
-| sm_weapons     | are neat      |    $1 |
-| sm_lobby       | are neat      |    $1 |
-| sm_ledge       | are neat      |    $1 |
-| sm_spit        | are neat      |    $1 |
-| sm_alloff      | are neat      |    $1 |
-| sm_director    | are neat      |    $1 |
-| sm_hold        | are neat      |    $1 |
-| sm_halt        | are neat      |    $1 |
-| sm_nb          | are neat      |    $1 |
-| sm_nospawn     | are neat      |    $1 |
-| sm_zspawnv     | are neat      |    $1 |
+| sm_collision   |    "entity"   | Toggles collision on the aimed entity or specified entity index. |
+| sm_movetype    |    "entity"   | Set the MoveType of an entity. |
+| sm_anim        |   "sequence"  | Show aimed entities animation sequence number until toggled again or your own if not aimed at entity. Optionally, it can set sequence. Checks every frame and reports changes. |
+| sm_weapons     | "client index" | Lists players weapons and indexes. Either yourself, or aim target or optional index via cmd args. |
+| sm_lobby       | "0-1" or NONE | Starts a vote return to lobby. |
+| sm_ledge       | are neat      | Enables/Disables ledge hanging. |
+| sm_spit        |     "user"    | Toggles spitter goo dribble on self (with no args) or specified targets. |
+| sm_alloff      |      N/A      | Toggles - AI director on/off, z_common_limit, sb_hold. |
+| sm_director    |      N/A      | Toggles - AI director on/off. |
+| sm_hold        |      N/A      | Toggles sb_hold - Stop the survivor bots moving but allows them to shoot. |
+| sm_halt        |      N/A      | Toggles sb_stop - Stops the survivor bots from moving and shooting. |
+| sm_nb          |      N/A      | Toggles nb_stop - Stops all survivors/specifial infected from moving. |
+| sm_nospawn     |      N/A      | Prevents all types of infected from spawning |
+| sm_zspawnv     | are neat      | Spawn infected and special infected specifying pos and ang. Usage sm_zspawnv <boomer|hunter|smoker|spitter|jockey|charger|tank|witch|infected> <pos X> <pos Y> <pos Z>  ( [modelname] [skin] || [ang X] [ang Y] [ang Z] [modelname] [skin] ). |
 | sm_bots        | are neat      |    $1 |
 | sm_slayall     | are neat      |    $1 |
 | sm_slaycommon  | are neat      |    $1 |
