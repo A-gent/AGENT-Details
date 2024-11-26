@@ -28,7 +28,7 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_fakecmd     | "user" "cmd" "args" | Executes a fake client command on the target you specify. |
 | sm_servercmd   | "cmd"         | Executes a server command. |
 | sm_scmd        | "cmd"         | Executes a server command. |
-| sm_rngc        | "0-100" "cmd str" | Chance out of 100 to execute the command string, client command. |
+| sm_rngc        | "0-100" "cmd string" | Chance out of 100 to execute the command string, client command. |
 | sm_rngf        | are neat      |    $1 |
 | sm_rngs        | are neat      |    $1 |
 | sm_views       | are neat      |    $1 |
