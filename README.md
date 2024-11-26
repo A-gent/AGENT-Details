@@ -5,8 +5,8 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
   
 |   COMMAND           |    VALUE         | DESCRIPTION  |
 | ------------------- |:----------------:| ------------:|
-| sm_refresh     | Default/Range: N/A | Refresh plugins (same as 'sm plugins refresh'). |
-| sm_renew       | Default/Range: N/A | Unload and Refresh plugins (same as 'sm plugins unload_all; sm plugins refresh'). |
+| sm_refresh     |      N/A      | Refresh plugins (same as 'sm plugins refresh'). |
+| sm_renew       |      N/A      | Unload and Refresh plugins (same as 'sm plugins unload_all; sm plugins refresh'). |
 | sm_unload      | are neat      |    $1 |
 | sm_round       | are neat      |    $1 |
 | sm_cheats      | are neat      |    $1 |
