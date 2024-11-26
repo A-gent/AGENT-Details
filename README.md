@@ -24,11 +24,11 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | e              | "cmd" "args" | Executes a cheat command. |
 | sm_ccmd        | "user" "cmd" "args" | Executes a client command on the target you specify. |
 | sm_clientcmd   | "user" "cmd" "args" | Executes a client command on the target you specify. |
-| sm_fcmd        | are neat      |    $1 |
-| sm_fakecmd     | are neat      |    $1 |
-| sm_servercmd   | are neat      |    $1 |
-| sm_scmd        | are neat      |    $1 |
-| sm_rngc        | are neat      |    $1 |
+| sm_fcmd        | "user" "cmd" "args" | Executes a fake client command on the target you specify. |
+| sm_fakecmd     | "user" "cmd" "args" | Executes a fake client command on the target you specify. |
+| sm_servercmd   | "cmd"         | Executes a server command. |
+| sm_scmd        | "cmd"         | Executes a server command. |
+| sm_rngc        | "0-100" "cmd str" | Chance out of 100 to execute the command string, client command. |
 | sm_rngf        | are neat      |    $1 |
 | sm_rngs        | are neat      |    $1 |
 | sm_views       | are neat      |    $1 |
