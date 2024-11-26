@@ -9,16 +9,16 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | ------------------- |:----------------:| ------------:|
 | sm_refresh     |      N/A      | Refresh plugins (same as 'sm plugins refresh'). |
 | sm_renew       |      N/A      | Unload and Refresh plugins (same as 'sm plugins unload_all; sm plugins refresh'). |
-| sm_unload      | are neat      |    $1 |
-| sm_round       | are neat      |    $1 |
-| sm_cheats      | are neat      |    $1 |
-| sm_logit       | are neat      |    $1 |
-| sm_gametime    | are neat      |    $1 |
-| sm_uptime      | are neat      |    $1 |
-| sm_playtime    | are neat      |    $1 |
-| sm_changes     | are neat      |    $1 |
-| sm_createent   | are neat      |    $1 |
-| sm_cv          | are neat      |    $1 |
+| sm_unload      |      N/A      | Unload all plugins (same as 'sm plugins unload_all'). |
+| sm_round       |      N/A      | Executes 'mp_restartgame 1' to restart round. |
+| sm_cheats      |      N/A      | Toggles sv_cheats. |
+| sm_logit       |     <text>    | Logs specified text to 'sourcemod/logs/sm_logit.txt'. |
+| sm_gametime    |      N/A      | Displays the GetGameTime() float. |
+| sm_uptime      |      N/A      | Displays how long the server has been up. Maybe inaccurate if server hibernation is active. |
+| sm_playtime    |      N/A      | Displays how long players have been playing on the server. |
+| sm_changes     |      N/A      | Displays how many map changes have occurred. |
+| sm_createent   |  <classname>  | Creates and removes the entity classname, reports success. |
+| sm_cv          | <cvar> [value]| Get/Set cvar value without the notify flag. |
 | cv             | are neat      |    $1 |
 | sm_e           | are neat      |    $1 |
 | e              | are neat      |    $1 |
