@@ -12,17 +12,17 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_unload      |      N/A      | Unload all plugins (same as 'sm plugins unload_all'). |
 | sm_round       |      N/A      | Executes 'mp_restartgame 1' to restart round. |
 | sm_cheats      |      N/A      | Toggles sv_cheats. |
-| sm_logit       |     "< text >"    | Logs specified text to 'sourcemod/logs/sm_logit.txt'. |
+| sm_logit       |     "text"    | Logs specified text to 'sourcemod/logs/sm_logit.txt'. |
 | sm_gametime    |      N/A      | Displays the GetGameTime() float. |
 | sm_uptime      |      N/A      | Displays how long the server has been up. Maybe inaccurate if server hibernation is active. |
 | sm_playtime    |      N/A      | Displays how long players have been playing on the server. |
 | sm_changes     |      N/A      | Displays how many map changes have occurred. |
-| sm_createent   |  "< classname >" | Creates and removes the entity classname, reports success. |
-| sm_cv          | "< cvar >" "value" | Get/Set cvar value without the notify flag. |
-| cv             | "< cvar >" "value"  | Get/Set cvar value without the notify flag. |
+| sm_createent   |  "classname" | Creates and removes the entity classname, reports success. |
+| sm_cv          | "cvar" "value" | Get/Set cvar value without the notify flag. |
+| cv             | "cvar" "value"  | Get/Set cvar value without the notify flag. |
 | sm_e           | "cmd" "args" | Executes a cheat command. |
 | e              | "cmd" "args" | Executes a cheat command. |
-| sm_ccmd        | "#userid|name" "cmd" "args" | Executes a client command on the target you specify. |
+| sm_ccmd        | "userid|name" "cmd" "args" | Executes a client command on the target you specify. |
 | sm_clientcmd   | are neat      |    $1 |
 | sm_fcmd        | are neat      |    $1 |
 | sm_fakecmd     | are neat      |    $1 |
