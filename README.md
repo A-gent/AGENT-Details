@@ -18,11 +18,11 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_playtime    |      N/A      | Displays how long players have been playing on the server. |
 | sm_changes     |      N/A      | Displays how many map changes have occurred. |
 | sm_createent   |  "< classname >" | Creates and removes the entity classname, reports success. |
-| sm_cv          | "< cvar > [value]" | Get/Set cvar value without the notify flag. |
-| cv             | are neat      |    $1 |
-| sm_e           | are neat      |    $1 |
-| e              | are neat      |    $1 |
-| sm_ccmd        | are neat      |    $1 |
+| sm_cv          | "< cvar >" "[value]" | Get/Set cvar value without the notify flag. |
+| cv             | "< cvar >" "[value]"  | Get/Set cvar value without the notify flag. |
+| sm_e           | "< command >" "[args]" | Executes a cheat command. |
+| e              | "< command >" "[args]" | Executes a cheat command. |
+| sm_ccmd        | "< #userid|name >" "< command >" "[args]" | Executes a client command on the target you specify. |
 | sm_clientcmd   | are neat      |    $1 |
 | sm_fcmd        | are neat      |    $1 |
 | sm_fakecmd     | are neat      |    $1 |
