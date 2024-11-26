@@ -17,8 +17,8 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_uptime      |      N/A      | Displays how long the server has been up. Maybe inaccurate if server hibernation is active. |
 | sm_playtime    |      N/A      | Displays how long players have been playing on the server. |
 | sm_changes     |      N/A      | Displays how many map changes have occurred. |
-| sm_createent   |  <classname>  | Creates and removes the entity classname, reports success. |
-| sm_cv          | <cvar> [value]| Get/Set cvar value without the notify flag. |
+| sm_createent   |  "<classname>" | Creates and removes the entity classname, reports success. |
+| sm_cv          | "<cvar> [value]" | Get/Set cvar value without the notify flag. |
 | cv             | are neat      |    $1 |
 | sm_e           | are neat      |    $1 |
 | e              | are neat      |    $1 |
