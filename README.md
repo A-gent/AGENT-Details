@@ -36,8 +36,8 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_pos         |      N/A      | Displays your position vector. |
 | sm_aimpos      |      N/A      | Displays the position vector where your crosshair is aiming. |
 | sm_setang      | "user" "vector ang" | Teleport someone to the x y z angles vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
-| sm_setpos      | are neat      |    $1 |
-| sm_bringents   | are neat      |    $1 |
+| sm_setpos      | "user" "vector pos" | Teleport someone to the x y z origin vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
+| sm_bringents   | "class" "distance 'Def. 50'" | Teleport specified entities by classname to around the player. e.g. sm_bringents weapon_rifle. |
 | sm_tele        | are neat      |    $1 |
 | sm_tel         | are neat      |    $1 |
 | sm_range       | are neat      |    $1 |
