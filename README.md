@@ -35,30 +35,30 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_viewr       |      N/A      | Teleports you to the saved position and eye angles. |
 | sm_pos         |      N/A      | Displays your position vector. |
 | sm_aimpos      |      N/A      | Displays the position vector where your crosshair is aiming. |
-| sm_setang      | "user" "vector ang" | Teleport someone to the x y z angles vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
-| sm_setpos      | "user" "vector pos" | Teleport someone to the x y z origin vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
+| sm_setang      | "user" "vec ang" | Teleport someone to the x y z angles vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
+| sm_setpos      | "user" "vec pos" | Teleport someone to the x y z origin vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
 | sm_bringents   | "class" "distance 'Def. 50'" | Teleport specified entities by classname to around the player. e.g. sm_bringents weapon_rifle. |
-| sm_tele        | are neat      |    $1 |
-| sm_tel         | are neat      |    $1 |
-| sm_range       | are neat      |    $1 |
-| sm_near        | are neat      |    $1 |
-| sm_dist        | are neat      |    $1 |
-| sm_distdir     | are neat      |    $1 |
-| sm_distfloor   | are neat      |    $1 |
-| sm_distroof    | are neat      |    $1 |
-| sm_size        | are neat      |    $1 |
-| sm_sizee       | are neat      |    $1 |
-| sm_del         | are neat      |    $1 |
-| sm_dele        | are neat      |    $1 |
-| sm_delents     | are neat      |    $1 |
-| sm_ent         | are neat      |    $1 |
-| sm_ente        | are neat      |    $1 |
-| sm_vertex      | are neat      |    $1 |
-| sm_box         | are neat      |    $1 |
-| sm_find        | are neat      |    $1 |
-| sm_findname    | are neat      |    $1 |
-| sm_count       | are neat      |    $1 |
-| sm_modlist     | are neat      |    $1 |
+| sm_tele        | "user" "xyz vec pos" | Teleport specified targets to aim location or to the x y z origin vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
+| sm_tel         | "vec pos" "vec ang" | Teleport yourself to the x y z vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
+| sm_range       |   "entity"    | Shows how far away an object is that you're aiming at, or optional arg to specify an entity index. |
+| sm_near        |    "range"    | Lists all nearby entities within the specified range. Usage sm_near: [range]. |
+| sm_dist        |      N/A      |  Enter twice to measure distance between the origins you stand on. |
+| sm_distdir     |      N/A      | Get distance between you and end point of direction you are looking at (considering collision). |
+| sm_distfloor   |      N/A      | Get distance between you and floor below you (considering collision). |
+| sm_distroof    |      N/A      | Get distance between you and roof above your head (considering collision). |
+| sm_size        |      N/A      | Get sizes (Width, Length, Height) of your player. |
+| sm_sizee       |      N/A      | Get sizes (Width, Length, Height) of the entity you are looking at. |
+| sm_del         |      N/A      | Deletes the entity your crosshair is over. |
+| sm_dele        |    "entity"   | Deletes the entity you specify. |
+| sm_delents     |    "class"    | Delete all the entities of a specific classname. |
+| sm_ent         |      N/A      | Displays info about the entity your crosshair is over. |
+| sm_ente        |    "entity"   | Displays info about the entity you specify. |
+| sm_vertex      |    "entity"   | Displays vMaxs and vMins bounding box about the specified entity or aimed at entity. |
+| sm_box         |    "entity"   | Displays a beam box around the specified entity or aimed at entity for 10 seconds. |
+| sm_find        |    "class"    | List entity indexes from the given classname. |
+| sm_findname    |  "targetname" | List entity indexes from a partial targetname. |
+| sm_count       |      N/A      | Displays a list of all spawned entity classnames and count. Optional sm_count <classname>. |
+| sm_modlist     |      N/A      | Saves a list of all the models used on the current map to 'sourcemod/logs/models_<MAPNAME>.txt'. |
 | sm_collision   | are neat      |    $1 |
 | sm_movetype    | are neat      |    $1 |
 | sm_anim        | are neat      |    $1 |
