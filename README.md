@@ -72,16 +72,16 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_halt        |      N/A      | Toggles sb_stop - Stops the survivor bots from moving and shooting. |
 | sm_nb          |      N/A      | Toggles nb_stop - Stops all survivors/specifial infected from moving. |
 | sm_nospawn     |      N/A      | Prevents all types of infected from spawning |
-| sm_zspawnv     | are neat      | Spawn infected and special infected specifying pos and ang. Usage sm_zspawnv <boomer|hunter|smoker|spitter|jockey|charger|tank|witch|infected> <pos X> <pos Y> <pos Z>  ( [modelname] [skin] || [ang X] [ang Y] [ang Z] [modelname] [skin] ). |
-| sm_bots        | are neat      |    $1 |
-| sm_slayall     | are neat      |    $1 |
-| sm_slaycommon  | are neat      |    $1 |
-| sm_slaywitches | are neat      |    $1 |
-| sm_stopang     | are neat      |    $1 |
-| sm_c           | are neat      |    $1 |
-| sm_r           | are neat      |    $1 |
-| sm_s           | are neat      |    $1 |
-| sm_v           | are neat      |    $1 |
-| sm_sc          | are neat      |    $1 |
+| sm_zspawnv     | "infected" "posX" "posY" "posZ" | Spawn infected and special infected specifying pos and ang. |
+| sm_bots        |      N/A      | Creates a new Survivor bot. |
+| sm_slayall     |      N/A      | Slays all common and special infected and witches |
+| sm_slaycommon  |      N/A      | Slays all common infected. |
+| sm_slaywitches |      N/A      | Slays all witches. |
+| sm_stopang     |      N/A      | Freeze current angle of all survivor bot players. |
+| sm_c           |      N/A      | Sets the game mode to Coop. |
+| sm_r           |      N/A      | Sets the game mode to Realism. |
+| sm_s           |      N/A      | Sets the game mode to Survival. |
+| sm_v           |      N/A      | Sets the game mode to Versus. |
+| sm_sc          |      N/A      | Sets the game mode to Scavenge. |
   
 </p>
