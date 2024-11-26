@@ -29,13 +29,13 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | sm_servercmd   | "cmd"         | Executes a server command. |
 | sm_scmd        | "cmd"         | Executes a server command. |
 | sm_rngc        | "0-100" "cmd string" | Chance out of 100 to execute the command string, client command. |
-| sm_rngf        | are neat      |    $1 |
-| sm_rngs        | are neat      |    $1 |
-| sm_views       | are neat      |    $1 |
-| sm_viewr       | are neat      |    $1 |
-| sm_pos         | are neat      |    $1 |
-| sm_aimpos      | are neat      |    $1 |
-| sm_setang      | are neat      |    $1 |
+| sm_rngf        | "0-100" "cmd string" | Chance out of 100 to execute the command string, fake client command. |
+| sm_rngs        | "0-100" "cmd string" | Chance out of 100 to execute the command string, server command. |
+| sm_views       |      N/A      | Saves your current position and eye angles. |
+| sm_viewr       |      N/A      | Teleports you to the saved position and eye angles. |
+| sm_pos         |      N/A      | Displays your position vector. |
+| sm_aimpos      |      N/A      | Displays the position vector where your crosshair is aiming. |
+| sm_setang      | "user" "vector ang" | Teleport someone to the x y z angles vector specified. Place ? to ignore an XYZ vector and use the targets current value. |
 | sm_setpos      | are neat      |    $1 |
 | sm_bringents   | are neat      |    $1 |
 | sm_tele        | are neat      |    $1 |
