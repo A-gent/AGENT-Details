@@ -5,8 +5,8 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
   
 | COMMAND        | DESCRIPTION           | Cool  |
 | -------------- |:-------------:| -----:|
-| sm_refresh     | Refresh plugins (same as 'sm plugins refresh'). | $1600 |
-| sm_renew       | Unload and Refresh plugins (same as 'sm plugins unload_all; sm plugins refresh'). |   $12 |
+| sm_refresh     | Default/Range: N/A | Refresh plugins (same as 'sm plugins refresh'). |
+| sm_renew       | Default/Range: N/A | Unload and Refresh plugins (same as 'sm plugins unload_all; sm plugins refresh'). |
 | sm_unload      | are neat      |    $1 |
 | sm_round       | are neat      |    $1 |
 | sm_cheats      | are neat      |    $1 |
