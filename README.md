@@ -22,8 +22,8 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 | cv             | "cvar" "value"  | Get/Set cvar value without the notify flag. |
 | sm_e           | "cmd" "args" | Executes a cheat command. |
 | e              | "cmd" "args" | Executes a cheat command. |
-| sm_ccmd        | "userid/name" "cmd" "args" | Executes a client command on the target you specify. |
-| sm_clientcmd   | are neat      |    $1 |
+| sm_ccmd        | "user" "cmd" "args" | Executes a client command on the target you specify. |
+| sm_clientcmd   | "user" "cmd" "args" | Executes a client command on the target you specify. |
 | sm_fcmd        | are neat      |    $1 |
 | sm_fakecmd     | are neat      |    $1 |
 | sm_servercmd   | are neat      |    $1 |
