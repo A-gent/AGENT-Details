@@ -3,10 +3,10 @@ SourcePawn ConVar/Cvar/Alias Directive Repository For Cataloguing Notable Comman
 
 <p align="center">
   
-| COMMAND        | Are           | Cool  |
+| COMMAND        | DESCRIPTION           | Cool  |
 | -------------- |:-------------:| -----:|
-| sm_refresh     | right-aligned | $1600 |
-| sm_renew       | centered      |   $12 |
+| sm_refresh     | Refresh plugins (same as 'sm plugins refresh'). | $1600 |
+| sm_renew       | Unload and Refresh plugins (same as 'sm plugins unload_all; sm plugins refresh'). |   $12 |
 | sm_unload      | are neat      |    $1 |
 | sm_round       | are neat      |    $1 |
 | sm_cheats      | are neat      |    $1 |
